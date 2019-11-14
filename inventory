@@ -1,0 +1,2 @@
+server1-hostname ansible_user='server1-user' ansible_password='server1-password'
+server2-hostname ansible_user='server2-user' ansible_password='server2-password'
