@@ -18,7 +18,7 @@ server15-hostname ansible_user='server15-user' ansible_password='server15-passwo
 
 For playbook execution need to use the following command:
 ```
-ansible-playbook -i inventory ansible-init.yml
+ansible-playbook -i inventory init.yml
 ```
 
 After successful playbook execution you are ready to include new server(s) into main inventory file because authentication from now goes via SSH key.
